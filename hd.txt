@@ -1,0 +1,8 @@
+đây nhé, lấy cái này: global.client.api = loginApiData
+vào file mirai.js
+xong tìm đến đoạn: global.config.version thì xuống dòng rồi dán nó
+kiểu như này:
+global.config.version = '1.2.14'
+global.client.api = loginApiData
+
+chúc thành công, cấm share linh tinh
