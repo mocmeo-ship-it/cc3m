@@ -17,13 +17,13 @@ module.exports = (data, option) => {
 module.exports.loader = (data, option) => {
 	switch (option) {
 		case "warn":
-			console.log(chalk.yellow('[ BEARZ ] » ') + data);
+			console.log(chalk.yellow('[ ✅ ] » ') + data);
 			break;
 		case "error":
-			console.log(chalk.red('[ BEARZ ] » ') + data);
+			console.log(chalk.red('[ 🐧 ] » ') + data);
 			break;
 		default:
-			console.log(chalk.green(`[ BEARZ ] » `) + data);
+			console.log(chalk.green(`[ 🦆 ] » `) + data);
 			break;
 	}
 }
