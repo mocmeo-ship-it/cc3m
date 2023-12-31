@@ -3,7 +3,7 @@ const { readFileSync } = require("fs-extra");
 const http = require("http");
 const axios = require("axios");
 const semver = require("semver");
-const chalk = require("shiron");
+const chalk = require("canhcutkhongbay");
 const logger = require("./utils/log");
 
 /////////////////////////////////////////////
