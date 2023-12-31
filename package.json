@@ -16,7 +16,7 @@
     "license": "GPL-3.0",
     "dependencies": {
         "fs-extra": "",
-        "aset-midai": "",
+        "mirai-assets": "",
         "adm-zip": "",
         "authenticator": "",
         "axios": "",
